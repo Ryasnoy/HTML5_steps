@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Entry Fields</title>
+  </head>
+  <body>
+    <form name="test" action=""  method="post">
+      <label for="textField">Enter your request:</label>
+      <input type="text" name="fieldName" id="textField" placeholder="Search..." title="Help" maxlength="3">
+      <br/><br/>
+      <!-- Date picker. Doesn`t work on Safari -->
+      <label for="dateField">Date:</label>
+      <input type="date" name="dateField" id="dateField" placeholder="Select date">
+      <br/><br/>
+
+      <!-- Checkbox -->
+      <label for="checkbox">Checkbox:</label>
+      <input type="checkbox" id="checkbox">
+      <br/><br/>
+
+      <!-- Range slider -->
+      <label for="range">Range:</label>
+      <input type="range">
+      <br/><br/>
+
+      <!-- Radio buttons -->
+      <label for="male">Male:</label>
+      <input type="radio" id="male" name="state">
+      <label for="female">Female:</label>
+      <input type="radio" id="female" name="state">
+      <br/><br/>
+
+      <!-- Password field -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="pass">
+      <br/><br/>
+
+      <!-- Download file on server -->
+      <label for="file">Select file:</label>
+      <input type="file" name="file" id="file">
+
+      <!-- Color: Calls color picker -->
+      <label for="color">Select color:</label>
+      <input type="color" name="color" id="color">
+      <br/><br/>
+
+      <!-- Buttons  -->
+      <!-- Submit reloads page -->
+      <input type="button" name="btn" value="Send">
+      <input type="submit" name="sbt" value="Submit">
+      <br/><br/>
+
+      <!-- Reset form -->
+      <input type="reset">
+      
+    </form>
+  </body>
+</html>
